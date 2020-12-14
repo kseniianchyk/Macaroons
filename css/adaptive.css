@@ -1,0 +1,497 @@
+@media screen and (max-width: 1229px) {
+    #menu {
+        margin: 0 200px;
+    }
+
+    #products-container {
+        padding-bottom: 60px;
+    }
+
+    #products-items {
+        justify-content: center;
+    }
+
+    .product-item {
+        margin: 80px 15px;
+    }
+
+    #products-title {
+        padding-bottom: 123px;
+    }
+
+    #main-container {
+        padding-top: 80px;
+    }
+
+    #main-info h1 {
+        font-size: 50px;
+    }
+
+    #main-img img {
+        max-width: 500px;
+    }
+
+    #str-left {
+        right: 880px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    #header-container {
+        justify-content: center;
+    }
+
+    #header-container .numb {
+        display: none;
+    }
+
+    #menu {
+        margin: 0 0 0 160px;
+    }
+
+    #main-container {
+        padding-top: 64px;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-info h1 {
+        padding-bottom: 74px;
+    }
+
+    #main-info-text {
+        padding-bottom: 40px;
+    }
+
+    #main-img img {
+        position: relative;
+        bottom: 80px;
+        left: 100px;
+    }
+
+    #experience-container {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        max-width: 671px;
+    }
+
+    #experience-info-title {
+        max-width: 475px;
+        margin: 0 auto;
+    }
+
+    #experience-info {
+        max-width: 100%;
+    }
+
+    #experience-info-text {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #experience-img img {
+        width: 302px;
+    }
+
+    #advantage-container {
+        max-width: 500px;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .advantages-ball-numb {
+        text-align: -webkit-center;
+    }
+
+    .ball-numb {
+        left: 93px;
+    }
+
+    .advantages {
+        padding-bottom: 80px;
+    }
+
+    #products-title {
+        padding-bottom: 86px;
+    }
+
+    #products-container {
+        max-width: 586px;
+        padding-bottom: 40px;
+    }
+
+    .product-item {
+        margin-bottom: 80px;
+    }
+
+    #order-container {
+        justify-content: center;
+        align-items: flex-end;
+        padding-top: 120px;
+        position: relative;
+    }
+
+    #order-img {
+        order: 1;
+    }
+
+    #order-img img {
+        width: 352px;
+    }
+
+    #str-left {
+        left: 348px;
+        top: 172px;
+    }
+
+    #str-right {
+        top: 0;
+        right: -295px;
+    }
+
+    #order-title {
+        font-size: 42px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    #main-container {
+        padding-bottom: 64px;
+        text-align: center;
+    }
+
+    #main-info-text {
+        max-width: 100%;
+    }
+
+    #main-img img {
+        position: static;
+        padding-top: 50px;
+        width: 500px;
+    }
+
+    #str-left {
+        left: 296px;
+    }
+}
+
+@media screen and (max-width: 684px) {
+
+    #menu {
+        margin: 0 0 0 110px;
+    }
+
+    #main-info h1 {
+        font-size: 45px;
+    }
+
+    .btn {
+        width: 240px;
+    }
+
+    #main-img img {
+        width: 420px;
+    }
+
+    .form-btn {
+        width: 294px;
+    }
+
+    #experience-container {
+        padding-top: 100px;
+    }
+
+    #advantage-container {
+        padding-bottom: 0;
+    }
+
+    #products-container {
+        padding-top: 100px;
+    }
+
+    #order-container {
+        padding-top: 100px;
+        padding-bottom: 77px;
+    }
+
+    #order-img img {
+        display: none;
+    }
+
+    #str-right {
+        display: none;
+    }
+
+    #str-left {
+        top: 143px;
+        left: 285px;
+    }
+
+    #footer-container {
+        padding: 47px 15px;
+    }
+
+    #footer-items-text {
+        bottom: 49px;
+    }
+
+    .product-item {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 624px) {
+
+    #footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-container .logo {
+        margin-bottom: 40px;
+    }
+
+    #footer-container .numb {
+        margin-bottom: 40px;
+    }
+
+    #footer-items-text {
+        bottom: 38px;
+        padding: 0;
+    }
+
+    #social {
+        margin-bottom: 40px;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #header-container {
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: end;
+        margin: 0;
+        padding-top: 20px;
+        background: #7e1026a6;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+    #menu.open {
+        display: flex;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #burger svg {
+        width: 40px;
+        height: 40px;
+        fill: #821328;
+    }
+
+    #menu a.menu-item {
+        margin: 15px;
+        color: white;
+        border-bottom: 0;
+    }
+
+    #menu .menu-item:hover {
+        border-bottom: 0;
+    }
+
+    #menu svg {
+        display: block;
+        width: 20px;
+        height: 20px;
+        fill: white;
+        margin: 15px;
+    }
+
+    #main-info h1 {
+        font-size: 40px;
+    }
+
+    .advantages-text {
+        max-width: 190px;
+    }
+
+    .ball-numb {
+        left: 85px;
+    }
+
+    #str-left {
+        width: 72px;
+        top: 130px;
+        left: 250px;
+    }
+
+    #order-form input {
+        width: 344px;
+        letter-spacing: 1px;
+    }
+
+    .form-btn {
+        width: 344px;
+    }
+}
+
+
+@media screen and (max-width: 424px) {
+
+    #main-info h1 {
+        font-size: 32px;
+        padding-bottom: 40px;
+    }
+
+    #main-info-text {
+        max-width: 347px;
+        margin: 0 auto;
+    }
+
+    #main-img img {
+        width: 250px;
+        padding-top: 24px;
+    }
+
+    #main-container {
+        padding-bottom: 43px;
+    }
+
+    #experience-container {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    #experience-info-title {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    #experience-info-text {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    #advantage-container {
+        padding-bottom: 32px;
+    }
+
+    .advantages {
+        padding-bottom: 36px;
+    }
+
+    .advantages-title {
+        font-size: 18px;
+    }
+
+    .advantages-text {
+        max-width: 165px;
+        height: 136px;
+        font-size: 13px;
+    }
+
+    .ball-numb {
+        left: 68px;
+    }
+
+    #products-title {
+        font-size: 30px;
+        padding-bottom: 65px;
+    }
+
+    #order-title {
+        font-size: 30px;
+    }
+
+    #order-text {
+        font-size: 16px;
+    }
+
+    #str-left {
+        top: 113px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+
+    #main-info h1 {
+        font-size: 30px;
+    }
+
+    #experience-info-title {
+        font-size: 27px;
+    }
+
+    #products-title {
+        font-size: 27px;
+    }
+
+    #order-title {
+        font-size: 27px;
+    }
+
+    #advantage-container {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .advantages-text {
+        max-width: 208px;
+        height: 88px;
+    }
+
+    .ball-numb {
+        left: 89px;
+    }
+
+    #products-container {
+        padding-top: 75px;
+    }
+
+    #products-title {
+        font-size: 28px;
+        padding-bottom: 45px;
+    }
+
+    #order-container {
+        padding-top: 75px;
+    }
+
+    #str-left {
+        top: 124px;
+        left: 120px;
+    }
+
+    #order-form input {
+        width: 295px;
+        letter-spacing: 0;
+    }
+
+    .form-btn {
+        width: 295px;
+    }
+
+}

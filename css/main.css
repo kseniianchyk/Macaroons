@@ -1,0 +1,470 @@
+@font-face {
+    src: url("../fonts/TavolgaFree.ttf");
+    font-family: TavolgaFree;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Bold.ttf");
+    font-family: GilroyBold;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-ExtraBold.ttf");
+    font-family: GilroyExtraBold;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Medium.ttf");
+    font-family: GilroyMedium;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Regular.ttf");
+    font-family: GilroyRegular;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+}
+
+#header-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 38px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: TavolgaFree, sans-serif;
+    text-transform: uppercase;
+}
+
+.logo a {
+    color: rgb(255, 255, 255);
+}
+
+#burger {
+    display: none;
+}
+
+#menu svg {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 328px 0 232px;
+    width: 308px;
+}
+
+#menu .menu-item {
+    font-size: 14px;
+    font-family: GilroyMedium, sans-serif;
+    color: rgb(119, 11, 29);
+    border-bottom: 2px solid transparent;
+}
+
+#menu .menu-item:hover {
+    border-bottom: 2px solid rgb(130, 19, 40);
+}
+
+.numb a {
+    font-size: 16px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#main {
+    background-color: rgb(235, 168, 177);
+}
+
+#main-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 127px 15px 105px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 580px;
+}
+
+#main-info h1 {
+    margin: 0;
+    font-size: 55px;
+    font-family: TavolgaFree, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    padding-bottom: 60px;
+}
+
+#main-info-text {
+    max-width: 348px;
+    font-family: TavolgaFree, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    padding-bottom: 80px;
+}
+
+#main-img img {
+    max-width: 529px;
+}
+
+.btn {
+    background: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    border-radius: 50px;
+    width: 240px;
+    font-size: 18px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 22px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#experience {
+    background-color: rgb(255, 239, 239);
+}
+
+#experience-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 119px 15px 80px 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#experience-info {
+    max-width: 475px;
+}
+
+#experience-info-title {
+    font-size: 45px;
+    font-family: TavolgaFree, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    padding-bottom: 60px;
+}
+
+#experience-info-text {
+    font-size: 18px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    width: 397px;
+}
+
+#advantage {
+    background-color: rgb(255, 239, 239);
+}
+
+#advantage-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding:0 15px 120px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advantages {
+    position: relative;
+}
+
+.ball {
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.ball-numb {
+    font-size: 60px;
+    font-family: GilroyExtraBold, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 18px;
+    top: 13px;
+    z-index: 10;
+}
+
+.advantages-title {
+    font-size: 20px;
+    font-family: GilroyExtraBold, sans-serif;
+    color: rgb(51, 25, 7);
+    padding-top: 15px;
+}
+
+.advantages-text {
+    padding-top: 20px;
+    max-width: 220px;
+    height: 100px;
+    font-size: 15px;
+    font-family: GilroyMedium, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+}
+
+#products {
+    background-color: rgb(235, 168, 177);
+}
+
+#products-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 120px 15px;
+}
+
+#products-title {
+    font-size: 45px;
+    font-family: TavolgaFree, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#products-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    width: 263px;
+    padding: 109px 20px 27px 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 170px 15px 0 15px;
+}
+
+.product-item img {
+    position: absolute;
+    z-index: 10;
+    left: 75px;
+    top: -60px;
+    width: 195px;
+    height: 120px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-family: TavolgaFree, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 26px;
+}
+
+.btn.product-btn {
+    width: 130px;
+    font-size: 16px;
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-price {
+    font-size: 15px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 50px;
+    line-height: 1.5;
+}
+
+.slick-next:before {
+    content: url("../images/next.svg");
+}
+
+.slick-prev:before {
+    content: url("../images/back.svg");
+}
+
+.slick-prev, .slick-next {
+    top: 70%;
+}
+
+#order {
+    background-color: rgb(255, 239, 239);
+}
+
+#order-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 98px 15px 120px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#str-left {
+    position: absolute;
+    right: 1000px;
+    top: 0;
+}
+
+#order-content {
+    max-width: 407px;
+    position: relative;
+}
+
+#order-title {
+    font-size: 45px;
+    font-family: TavolgaFree, sans-serif;
+    color: rgb(51, 25, 7);
+    margin-bottom: 41px;
+}
+
+#order-text-submit {
+    display: none;
+    font-size: 18px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    text-align: center;
+    font-weight: bold;
+}
+
+#order-text {
+    font-size: 18px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    margin-bottom: 23px;
+}
+
+#order-form {
+    max-width: 295px;
+}
+
+.form-title {
+    font-size: 18px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(18, 10, 6);
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
+
+#order-form .reserve-input input {
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    width: 293px;
+    padding: 22px 25px;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: rgb(255, 239, 239);
+    font-size: 15px;
+    font-family: GilroyBold, sans-serif;
+    margin-top: 15px;
+    color: rgb(118, 12, 34);;
+}
+
+#order-form .reserve-input .error {
+    font-size: 11px;
+    font-family: GilroyBold, sans-serif;
+    color: red;
+    text-align: center;
+    margin-top: 3px;
+    display: none;
+}
+
+#order-form .reserve-input input::placeholder {
+        color: rgb(118, 12, 34);
+}
+
+.form-btn {
+    width: 294px;
+    margin-top: 15px;
+}
+
+#str-right {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+
+#footer {
+    background-color: rgb(192, 112, 124);
+}
+
+#footer-container {
+    padding: 73px 15px 62px 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#footer-items-text {
+    font-size: 12px;
+    font-family: GilroyRegular, sans-serif;
+    color: rgb(227, 172, 180);
+    padding-top: 19px;
+    position: absolute;
+    bottom: 61px;
+}
+
+#social {
+    text-align: center;
+    font-size: 16px;
+    font-family: GilroyBold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+#social svg {
+    width: 35px;
+    height: 35px;
+    fill: white;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
