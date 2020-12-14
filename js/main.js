@@ -1,12 +1,3 @@
-// document.getElementById('burger').onclick = function () {
-//     document.getElementById('menu').classList.add('open');
-// };
-// document.querySelectorAll('#menu > *').forEach((item) => {
-//     item.onclick = () => {
-//         document.getElementById('menu').classList.remove('open');
-//     }
-// })
-
 $(document).ready(() => {
 
     $('#products-items').slick({
@@ -14,7 +5,25 @@ $(document).ready(() => {
         slidesToShow: 3,
         slidesToScroll: 1,
         speed: 700,
-        dots: false
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1229,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 836,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+        ]
     });
 
     $('#reserve-btn').click(() => {
@@ -55,9 +64,13 @@ $(document).ready(() => {
         top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
     });
-
-
-
-
-
 });
+
+document.getElementById('burger').onclick = function () {
+    document.getElementById('menu').classList.add('open');
+};
+document.querySelectorAll('#menu > *').forEach((item) => {
+    item.onclick = () => {
+        document.getElementById('menu').classList.remove('open');
+    }
+})
